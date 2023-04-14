@@ -6,12 +6,23 @@ button{
     
 }
 .button-click{
-    background-color: #002ead84;
+    background-color: rgba(0, 16, 173, 0.618);
 
 }
 
 .button-restart{
-background-color: #701b2a28;
+background-color: rgba(112, 17, 43, 0.618);
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+
+.button-click:hover{
+    background-color: rgba(0, 46, 173, 0.99);
+
+}
+
+.button-restart:hover{
+background-color: rgba(112, 27, 43, 0.99);
 border-bottom-left-radius: 8px;
 border-bottom-right-radius: 8px;
 }

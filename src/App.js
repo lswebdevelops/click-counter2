@@ -2,6 +2,7 @@ import './App.css';
 import freeCodeCampLogo from './images/freecodecamp-logo.png';
 import React from 'react';
 import Button from './Components/Button';
+import Counter from './Components/Counter';
 
 class App extends React.Component{
   render(){
@@ -14,12 +15,8 @@ class App extends React.Component{
       src={freeCodeCampLogo}
       alt='fcc logo'/>
         
-     
-       <div className="button-container">  
-       <p 
-       className='counter-container'>
-        0
-      </p> 
+      <div className="button-container">  
+      <Counter />
        <Button
        text="Click"
        isButtonClick={true}/>
