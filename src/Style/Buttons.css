@@ -1,0 +1,17 @@
+button{
+    color: white;
+    font-size: large;
+    width: 300px;
+    padding: 8px;
+    
+}
+.button-click{
+    background-color: #002ead84;
+
+}
+
+.button-restart{
+background-color: #701b2a28;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+}
