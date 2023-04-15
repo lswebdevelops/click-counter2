@@ -6,10 +6,11 @@ import React from 'react';
 class Counter extends React.Component{
     render(){
         return(
-            <p 
-            className='counter-container'>
-             0
-           </p> 
+            <>
+            <div className='counter-container'>
+                {this.props.numClicks}
+            </div> 
+            </>
         )
     }
 }
