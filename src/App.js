@@ -11,11 +11,15 @@ class App extends React.Component{
       numClicks: 0,
     }
     this.manageClick = this.manageClick.bind(this)
+    this.restartCounter = this.restartCounter.bind(this)
   }
 
   manageClick(){
     this.setState(({ numClicks })=> ({ numClicks: numClicks + 1}));
     }
+  restartCounter(){
+    this.setState({numClicks: 0})
+  }
   render(){
       
     return (
@@ -36,7 +40,8 @@ class App extends React.Component{
 
        <Button
        text="Restart"
-       isButtonClick={false} />
+       isButtonClick={false}
+       manageClick={this.restartCounter} />
        </div>
       </div>
     );
